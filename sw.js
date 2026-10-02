@@ -1,7 +1,7 @@
 // Service worker de Neon Drift: permite jugar sin conexión (1 jugador).
 // ⚠️ En cada publicación, sube el número de VERSION para que los móviles
 //    descarguen la versión nueva y borren la caché antigua.
-const VERSION = 'neon-drift-v6';
+const VERSION = 'neon-drift-v8';
 const CORE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-maskable-512.png', './apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
