@@ -1,0 +1,20 @@
+{
+  "name": "Neon Drift",
+  "short_name": "Neon Drift",
+  "description": "Un pequeño shooter espacial arcade: 5 naves, 6 galaxias, súper poderes y modo en línea para 2 jugadores.",
+  "lang": "es",
+  "dir": "ltr",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#05010f",
+  "theme_color": "#05010f",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
