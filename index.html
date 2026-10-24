@@ -3,16 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-<title>Neon Drift — Shooter espacial</title>
+<title>ASPIT — Shooter espacial</title>
 <link rel="icon" type="image/png" href="icon-192.png">
 <script>/* manifiesto PWA solo en web (al abrir el archivo directamente Chrome lo bloquea) */if(/^https?:$/.test(location.protocol)){const l=document.createElement('link');l.rel='manifest';l.href='manifest.webmanifest';document.head.appendChild(l);}</script>
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="theme-color" content="#05010f">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Neon Drift">
+<meta name="apple-mobile-web-app-title" content="ASPIT">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="description" content="Neon Drift: un pequeño shooter espacial arcade con 5 naves, 6 galaxias, el Sistema Solar, súper poderes, modo en línea y 6 idiomas.">
+<meta name="description" content="ASPIT: un pequeño shooter espacial arcade con 5 naves, 6 galaxias, el Sistema Solar, súper poderes, modo en línea y 6 idiomas.">
 <style>
   html,body{margin:0;height:100%;background:#05010f;overflow:hidden;touch-action:none;font-family:system-ui,'Segoe UI',Roboto,'Noto Sans','Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif}
   #wrap{position:fixed;inset:0;display:flex;align-items:center;justify-content:center}
@@ -28,7 +28,7 @@
 //  (El resto de campos controla su aspecto y su forma de jugar.)
 // =====================================================================
 const SHIPS = [
-  { name: 'Neon Drift',
+  { name: 'ASPIT',
     desc: 'Equilibrada: disparo recto que se abre en abanico con cada mejora.',
     color: '#7df9ff', shot: '#bff9ff', shape: 'arrow',
     accel: 1.1, lives: 3, radius: 13, fire: 'spread', cooldown: 7, special: null,
@@ -2151,7 +2151,7 @@ function draw(){
   }
   if(state==='title'){
     ctx.fillStyle='#05010f88';ctx.fillRect(0,0,W,H);
-    text('NEON DRIFT',W/2,H/2-80,64,'#ff3cac','center',30);
+    text('ASPIT',W/2,H/2-80,64,'#ff3cac','center',30);
     text(T('t.sub'),W/2,H/2-42,18,'#7df9ff','center',10);
     drawMenu('#ffd23f');
     text(T('t.ship',S.name),W/2,H/2+140,16,S.color,'center',8);
